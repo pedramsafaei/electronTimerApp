@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-electron"
+    }
+  },
+  "defaultProject": "angular-electron",
+  "cli": {
+    "analytics": "44ef967d-48cc-4733-8204-c3c92709677f"
+  }
 }
