@@ -25,4 +25,6 @@ function createWindow() {
         win = null;
     });
 }
+//remove the default menu
+electron_1.Menu.setApplicationMenu(null);
 //# sourceMappingURL=main.js.map

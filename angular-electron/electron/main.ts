@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, Menu } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
 let win: BrowserWindow;
@@ -31,3 +31,5 @@ function createWindow() {
     win = null;
   });
 }
+//remove the default menu
+Menu.setApplicationMenu(null);
